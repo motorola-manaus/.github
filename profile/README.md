@@ -1,6 +1,6 @@
 # Motorola Edge 40 Neo (`manaus`) Development
 
-Welcome to the **motorola-manaus** organization. This organization hosts the complete, unified source repositories for building Android 17 (RisingOS 17 / LineageOS 22) and custom ROMs for the **Motorola Edge 40 Neo** (codename: `manaus`, SoC: MediaTek Dimensity 7020 / MT6879).
+Welcome to the **motorola-manaus** organization. This organization hosts the complete, unified source repositories for building Android 17 custom ROMs for the **Motorola Edge 40 Neo** (codename: `manaus`, SoC: MediaTek Dimensity 7020 / MT6879).
 
 ---
 
