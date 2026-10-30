@@ -1,6 +1,6 @@
 # Motorola Edge 40 Neo (`manaus`) Development
 
-Welcome to the **motorola-manaus** organization. This organization hosts the complete, unified source repositories for building Android 17 custom ROMs for the **Motorola Edge 40 Neo** (codename: `manaus`, SoC: MediaTek Dimensity 7020 / MT6879).
+Welcome to the **motorola-manaus** organization. This organization hosts the complete, unified source repositories for building Android 17 custom ROMs for the **Motorola Edge 40 Neo** (codename: `manaus`, SoC: MediaTek Dimensity 7030 / MT6879).
 
 ---
 
@@ -32,6 +32,7 @@ Welcome to the **motorola-manaus** organization. This organization hosts the com
 | [**android_kernel_motorola_mt6879**](https://github.com/motorola-manaus/android_kernel_motorola_mt6879) | Linux kernel 5.10.x GKI source | `kernel/motorola/mt6879` |
 | [**device_mediatek_sepolicy_vndr**](https://github.com/motorola-manaus/device_mediatek_sepolicy_vndr) | MediaTek vendor SEPolicy rules | `device/mediatek/sepolicy_vndr` |
 | [**hardware_mediatek**](https://github.com/motorola-manaus/hardware_mediatek) | MediaTek HAL interfaces and hardware modules | `hardware/mediatek` |
+| [**hardware_dolby**](https://github.com/motorola-manaus/hardware_dolby) | Motorola Dolby Atmos audio effects & HAL | `hardware/dolby` |
 
 ---
 
@@ -60,6 +61,9 @@ To sync all necessary repositories into your ROM build tree at once, save the fo
     <!-- MediaTek Hardware & SEPolicy -->
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="motorola-manaus" />
     <project name="hardware_mediatek" path="hardware/mediatek" remote="motorola-manaus" />
+
+    <!-- Dolby Atmos -->
+    <project name="hardware_dolby" path="hardware/dolby" remote="motorola-manaus" />
 </manifest>
 ```
 
