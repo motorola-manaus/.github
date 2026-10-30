@@ -102,5 +102,5 @@ To ensure fastbootd and recovery recognize the device as unlocked and allow dyna
 ## Community & Credits
 
 * Motorola Mobility LLC for the stock kernel and firmware releases.
-* The LineageOS Project & RisingOS team.
+* The LineageOS Project.
 * Original device bringup maintainer (`rexix01`).
